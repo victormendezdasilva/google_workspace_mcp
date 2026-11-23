@@ -466,7 +466,7 @@ class OAuth21SessionStore:
         self,
         state: str,
         session_id: Optional[str] = None,
-        expires_in_seconds: int = 600,
+        expires_in_seconds: int = 3600,
         code_verifier: Optional[str] = None,
         user_email: Optional[str] = None,
         expected_user_email: Optional[str] = None,
